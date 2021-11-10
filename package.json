@@ -1,0 +1,12 @@
+{
+  "name": "Lanterne_NodeAPI",
+  "version": "1.0.0",
+  "description": "web service that offers data about various London Underground lines and stations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tim Lehane",
+  "license": "ISC"
+}
