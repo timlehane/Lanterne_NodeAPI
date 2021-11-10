@@ -1,7 +1,7 @@
 {
   "name": "Lanterne_NodeAPI",
   "version": "1.0.0",
-  "description": "web service that offers data about various London Underground lines and stations",
+  "description": "web service that offers data about various London Underground lines and stations, that works.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
