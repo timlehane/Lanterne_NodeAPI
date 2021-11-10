@@ -17,6 +17,19 @@ async function getMultiple(page = 1){
   }
 }
 
+
+async function getById(id){
+    const rows = await db.query(
+        `SELECT * FROM LinesTable WHERE fId=?`,[id]
+    );
+    const data = helper.emptyOrRows(rows);
+
+    return {
+        data
+    }
+}
+
 module.exports = {
-  getMultiple
+  getMultiple,
+  getById
 }
